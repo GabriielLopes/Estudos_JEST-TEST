@@ -1,0 +1,13 @@
+COMANDO PARA INSTALAR O JEST
+npm i jest ts-jest @types/jest -D
+
+CONFIG INICIAL
+npx jest --init
+
+npx ts-jest config:init
+
+COMANDO PARA PROCURAR TESTES
+npx jest
+
+PARA QUE OCORRA A VERIFICAÇÃO DE TESTES OS ARQUIVOS PRECISAM CONTER .SPEC OU .TEST
+PRECISA SER INFORMADO ANTES DO TIPO DE EXTENSÃO DE ARQUIVO, OU SEJA "index.spec.ts" ou "index.test.ts"
